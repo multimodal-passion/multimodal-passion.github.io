@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 	<head>
-		<title>Sales Effect of Influencer Passion: </p>
-			Multimodal Machine Learning of Text, Audio, and Image Data
-
-</title>
-		<meta name="description" content="">
+		<title>Sales Effect of Influencer Passion: Multimodal Machine Learning of Text, Audio, and Image Data</title>
+		<meta name="description" content="A study on the impact of influencer passion on sales using multimodal machine learning on text, audio, and image data.">
 		<meta name="author" content="">
-		<meta name="keywords" content="">
+		<meta name="keywords" content="Influencer marketing, machine learning, sales effect">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/uikit.min.css" />
@@ -15,410 +12,170 @@
 		<script src="js/uikit.min.js"></script>
 		<script src="js/jquery.min.js"></script>
 		<script src="js/uikit-icons.min.js"></script>
-        <script src="js/script.js"></script>
+		<script src="js/script.js"></script>
 
-
-<style>
-
-
-
-.nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-    width: 100%;
-    justify-content: center;
-	margin-top: 60px;
-}
-.nav-link {
-    display: block;
-	text-align: center;
-    padding: 0.5rem 3rem;
-	color: #007bff;
-    text-decoration: none;
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
-}
-.nav-link:hover{   
-	text-decoration: none;
-	 color: #0056b3;
-	}
-
-
-	@media screen and (max-width: 768px) {
-		.large-title{
-	
-   }
-   .large-title p:nth-child(1){
-	font-size: 26px!important;
-	
-}
-.large-title p:nth-child(2){
-	font-size: 20px!important;
-}
-.mobile{
-	flex-direction: column;
-}
-
-.uk-width-1-2 {
-    width: 100%!important;
-}
-.container{
-	margin: 0!important;
-}
-}
-
-
-
-
-</style>
-
-<style>
-	
-
-/*样式开始 复制*/
-
-.col2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 40px;
-}
-
-.col2 .small-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-}
-
-
-@media screen and (max-width: 768px) {
-
-
-  
-
-
-
-  .col2{
-
-flex-direction: column;
-
-
-}
-
-}
-
-/*样式结束 复制*/
-
-
-</style>
-
-
-
-
-		</head>
-
-	<body oncontextmenu=self.event.returnValue=false>
-
-		<nav class="uk-navbar-container uk-margin" uk-navbar uk-sticky>
-
-		    
-		</nav>
-
-
-<div class="banner" style="background-color:#f5f5f5;padding-bottom:26px">
-	<div class="uk-container uk-container-center container">
-		<style>.large-title {font-size: 26px;}
+		<style>
+			.nav {
+				display: flex;
+				flex-wrap: wrap;
+				padding-left: 0;
+				margin-bottom: 0;
+				list-style: none;
+				width: 100%;
+				justify-content: center;
+				margin-top: 60px;
+			}
+			.nav-link {
+				display: block;
+				text-align: center;
+				padding: 0.5rem 3rem;
+				color: #007bff;
+				text-decoration: none;
+			}
+			.nav-link:hover {
+				color: #0056b3;
+				text-decoration: none;
+			}
+			.large-title p:nth-child(1) {
+				font-size: 48px;
+				text-align: center;
+			}
+			.large-title p:nth-child(2) {
+				font-size: 30px;
+				text-align: center;
+			}
+			.container {
+				padding: 20px;
+			}
+			.col2 {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				margin-bottom: 40px;
+			}
+			.small-title {
+				text-align: center;
+				margin: 10px 0;
+			}
+			@media screen and (max-width: 768px) {
+				.large-title p:nth-child(1) {
+					font-size: 26px;
+				}
+				.large-title p:nth-child(2) {
+					font-size: 20px;
+				}
+				.col2 {
+					flex-direction: column;
+				}
+				.uk-width-1-2 {
+					width: 100% !important;
+				}
+			}
 		</style>
+	</head>
 
-		<div class="large-title">
-				 <p style="font-size: 48px;text-align: center;"> Sales Effect of Influencer Passion:  </p>
-				 <p style="margin: 0px 0; text-align: center;font-size: 30px;">Multimodal Machine Learning of Text, Audio, and Image Data
+	<body oncontextmenu="event.preventDefault();">
+		<nav class="uk-navbar-container uk-margin" uk-navbar uk-sticky></nav>
 
-</p>
+		<div class="banner" style="background-color:#f5f5f5; padding-bottom:26px">
+			<div class="uk-container container">
+				<div class="large-title">
+					<p>Sales Effect of Influencer Passion:</p>
+					<p>Multimodal Machine Learning of Text, Audio, and Image Data</p>
+					<p style="font-size: 24px; font-weight: 100; margin-top: 160px;">The 6 video stimuli in our field experiment are shown as follows:</p>
+				</div>
 
-				 <p style="text-align: left; font-weight: 100;margin-top: 160px;font-size: 24px;">
-                     The 6 video stimuli in our field experiment are shown as follows:   
+				<!-- Video 1 -->
+				<h5 class="title">
+					<p><strong>Video 1: High passion & Hedonic product</strong></p>
+				</h5>
+				<div class="col2">
+					<div class="video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/b3cggOwWXRg?rel=0&si=p5W01QocHCjWUsyp" title="YouTube video player" allowfullscreen></iframe>
+						<div class="small-title">(English version)</div>
+					</div>
+					<div class="video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/5NAWEdfgmws?rel=0&si=KR94H6smABEdAq35" title="YouTube video player" allowfullscreen></iframe>
+						<div class="small-title">(Chinese version)</div>
+					</div>
+				</div>
 
-				 </p>
+				<!-- Video 2 -->
+				<h5 class="title">
+					<p><strong>Video 2: Middle passion & Hedonic product</strong></p>
+				</h5>
+				<div class="col2">
+					<div class="video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/bUjqF5rdcLw?rel=0&si=immGiRBRC_ZCXxEj" title="YouTube video player" allowfullscreen></iframe>
+						<div class="small-title">(English version)</div>
+					</div>
+					<div class="video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/bQ0V1YMkGns?rel=0&si=rlryUPAOM8q5V1a1" title="YouTube video player" allowfullscreen></iframe>
+						<div class="small-title">(Chinese version)</div>
+					</div>
+				</div>
+
+				<!-- Video 3 -->
+				<h5 class="title">
+					<p><strong>Video 3: Low passion & Hedonic product</strong></p>
+				</h5>
+				<div class="col2">
+					<div class="video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/3pmpPDwp0ag?rel=0&si=GHbfn33TNkS0Ooak" title="YouTube video player" allowfullscreen></iframe>
+						<div class="small-title">(English version)</div>
+					</div>
+					<div class="video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/-4VV9PIynKY?rel=0&si=ZRVMsLJt-8FadnHm" title="YouTube video player" allowfullscreen></iframe>
+						<div class="small-title">(Chinese version)</div>
+					</div>
+				</div>
+
+				<!-- Video 4 -->
+				<h5 class="title">
+					<p><strong>Video 4: High passion & Utilitarian product</strong></p>
+				</h5>
+				<div class="col2">
+					<div class="video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/XuxvrMWoT1c?rel=0&si=96wpXt7qmA89D1ze" title="YouTube video player" allowfullscreen></iframe>
+						<div class="small-title">(English version)</div>
+					</div>
+					<div class="video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/z1z-xqxum5w?rel=0&si=E9evFLTTh2ulMXfh" title="YouTube video player" allowfullscreen></iframe>
+						<div class="small-title">(Chinese version)</div>
+					</div>
+				</div>
+
+				<!-- Video 5 -->
+				<h5 class="title">
+					<p><strong>Video 5: Middle passion & Utilitarian product</strong></p>
+				</h5>
+				<div class="col2">
+					<div class="video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/rb95mPTxN7A?rel=0&si=9jLq4F15FKNAAc-o" title="YouTube video player" allowfullscreen></iframe>
+						<div class="small-title">(English version)</div>
+					</div>
+					<div class="video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/hF4kkxsh-v4?rel=0&si=6J5ZIQ0_QSQcQcLB" title="YouTube video player" allowfullscreen></iframe>
+						<div class="small-title">(Chinese version)</div>
+					</div>
+				</div>
+
+				<!-- Video 6 -->
+				<h5 class="title">
+					<p><strong>Video 6: Low passion & Utilitarian product</strong></p>
+				</h5>
+				<div class="col2">
+					<div class="video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/3pmpPDwp0ag?rel=0" title="YouTube video player" allowfullscreen></iframe>
+						<div class="small-title">(English version)</div>
+					</div>
+					<div class="video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/-4VV9PIynKY?rel=0" title="YouTube video player" allowfullscreen></iframe>
+						<div class="small-title">(Chinese version)</div>
+					</div>
+				</div>
+
 			</div>
-
-
-
- 
-
-
-
- <!--Video 1 -->                   
-				 
-	
-  
-                    <h5 id="2" class="title">
-			    <p style="font-size: 20px; "> 
-				    <strong>
-					    Video 1: High passion & Hedonic product
-				</strong> 
-			    </p>
-		    </h5>
-			
-
-			<!-- begin -->
-
-                    <div class="col2">
-                    	
-<!-- 左边 2-->
-                      <div class="video">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/b3cggOwWXRg?rel=0&si=p5W01QocHCjWUsyp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><div class="small-title">
-		        	(English version)
-		        </div>
-
-
-
-		 </div>
-
-
-		  <div class="video">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/5NAWEdfgmws?rel=0&si=KR94H6smABEdAq35" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>		        		(Chinese version)
-		        </div>
-
-		 </div>
 		</div>
-<!-- end -->	
- 
- <!--Video 2 -->                   
-				 
-	
-  
- <h5 id="2" class="title">
-	<p style="font-size: 20px; "> 
-		<strong>
-			Video 2: Middle passion & Hedonic product
-	</strong> 
-	</p>
-</h5>
-
-
-<!-- begin -->
-
-		<div class="col2">
-			
-<!-- 左边 2-->
-
-		<div class="video">
-
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/bUjqF5rdcLw?rel=0&si=immGiRBRC_ZCXxEj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<div class="small-title">
-		(English version)
-	</div>
-
-
-
-</div>
-
-
-<div class="video">
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bQ0V1YMkGns?rel=0&si=rlryUPAOM8q5V1a1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>		<div class="small-title">
-			(Chinese version)
-	</div>
-
-</div>
-</div>
-<!-- end -->	
-
- <!--Video 2 -->                   
-				 
-	
-  
- <h5 id="2" class="title">
-	<p style="font-size: 20px; "> 
-		<strong>
-			Video 21: Middle passion & Hedonic product
-	</strong> 
-	</p>
-</h5>
-
-
-<!-- begin -->
-
-		<div class="col2">
-			
-<!-- 左边 2-->
-		  <div class="video">
-
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/bUjqF5rdcLw?rel=0&si=immGiRBRC_ZCXxEj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<div class="small-title">
-		(English version)
-	</div>
-
-
-
-</div>
-
-
-<div class="video">
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bQ0V1YMkGns?rel=0&si=rlryUPAOM8q5V1a1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>		<div class="small-title">
-			(Chinese version)
-	</div>
-
-</div>
-</div>
-<!-- end -->	
-
-<!--Video 3 -->
-
-                    <h5 id="3" class="title"> 	    <p style="font-size: 20px; "> 
-				    <strong>
-					    Video 3: Low passion & Hedonic product
-				</strong> 
-			    </p>
-		    </h5>
- <!-- begin -->
-
-                    <div class="col2">
-
-                    	<!-- 左边 3-->
-                    	
-
-                      <div class="video">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/3pmpPDwp0ag?rel=0&si=GHbfn33TNkS0Ooak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<div class="small-title">
-		        	(English version)
-		        </div>
-
-
-
-		 </div>
-
-
-		  <div class="video">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/-4VV9PIynKY?rel=0&si=ZRVMsLJt-8FadnHm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>		<div class="small-title">
-		        	(Chinese version)
-		        </div>
-
-		 </div>
-		</div>
-<!-- end -->
-
-
-		
-<!--Video 4 -->
-
-<h5 id="3" class="title"> 	    <p style="font-size: 20px; "> 
-	<strong>
-		Video 4: High passion & Utilitarian product
-</strong> 
-</p>
-</h5>
-<!-- begin -->
-
-	<div class="col2">
-
-		<!-- 左边 3-->
-		
-
-	  <div class="video">
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/lF2anFwOvHw?rel=0&si=US-9TKUwiASKAuaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<div class="small-title">
-	(English version)
-</div>
-
-
-
-</div>
-
-
-<div class="video">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/V8XQxfPPXfI?rel=0&si=Ak5RRGbOzdVZ7WSG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><div class="small-title">
-	(Chinese version)
-</div>
-
-</div>
-</div>
-<!-- end -->
-
-
-<!--Video 5 -->
-
-<h5 id="3" class="title"> 	    <p style="font-size: 20px; "> 
-	<strong>
-		Video 5: High passion & Utilitarian product
-</strong> 
-</p>
-</h5>
-<!-- begin -->
-
-	<div class="col2">
-
-		<!-- 左边 3-->
-		
-
-	  <div class="video">
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/rb95mPTxN7A?rel=0&si=9jLq4F15FKNAAc-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><div class="small-title">
-	(English version)
-</div>
-
-
-
-</div>
-
-
-<div class="video">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/hF4kkxsh-v4?rel=0&si=6J5ZIQ0_QSQcQcLB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>	(Chinese version)
-</div>
-
-</div>
-</div>
-<!-- end -->
-
-
-
-<!--Video 6 -->
-
-<h5 id="3" class="title"> 	    <p style="font-size: 20px; "> 
-	<strong>
-		Video 6: High passion & Utilitarian product
-</strong> 
-</p>
-</h5>
-<!-- begin -->
-
-	<div class="col2">
-
-		<!-- 左边 3-->
-		
-	  <div class="video">
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/XuxvrMWoT1c?rel=0&si=96wpXt7qmA89D1ze" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<div class="small-title">
-	(English version)
-</div>
-
-
-
-</div>
-
-
-<div class="video">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/z1z-xqxum5w?rel=0&si=E9evFLTTh2ulMXfh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>	(Chinese version)
-</div>
-
-</div>
-</div>
-<!-- end -->
-
-
-</div>
-
-
-    </div>
-</div>
+	</body>
+</html>
